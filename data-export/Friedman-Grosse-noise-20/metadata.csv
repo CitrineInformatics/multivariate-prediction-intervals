@@ -1,0 +1,5 @@
+f: Friedman-Grosse 8 columns
+noise level: 20.0
+training points: 128
+bags: 64
+test points: 128

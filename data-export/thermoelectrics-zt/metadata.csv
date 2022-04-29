@@ -1,0 +1,5 @@
+f: Thermoelectrics ZT
+noise level: 0.0
+training points: 128
+bags: 64
+test points: 0
