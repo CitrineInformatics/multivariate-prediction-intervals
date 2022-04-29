@@ -1,6 +1,6 @@
 # Multivariate Prediction Intervals for Random Forests
 
-This repository is the official implementation of Multivariate Prediction Intervals for Random Forests (add link to ArXiv once available).
+This repository contains the data and code used to generate the results in Multivariate Prediction Intervals for Random Forests (TODO: add link to ArXiv once available).
 We propose a ''recalibrated bootstrap'' method to generate multivariate prediction intervals for predictions made by bagged models such as random forest.
 We show that the resulting prediction intervals are well-calibrated on a variety of synthetic and real-world test problems.
 We then apply the recalibrated bootstrap and other competing techniques to simulated sequential learning problems in which there are multiple competing objectives.
@@ -49,7 +49,7 @@ The table below summarizes the results of Table 1 and Figure 4 in the manuscript
 Given two test problems and several methods of generating a multivariate prediction interval to select a trial candidate,
 we see that using the recalibrated bootstrap leads to the fewest number of iterations required to find a candidate that satisfies all objectives.
 
-| Correlation Method | Median (Synthetic Data)  | Median (Thermoelectrics Data) |
+| Correlation Method | Median Iterations (Synthetic Data)  | Median Iterations (Thermoelectrics Data) |
 | ------------------ |------------------------- | ----------------------------- |
 | Trivial            |     43                   |      309      |
 | Random             |     33                   |      328      |
