@@ -1,0 +1,37 @@
+metric,mean value,std error of value,function,trials,train,test,bags,sample noise,observational
+NLPD (oob constant),4.107727676768343,0.017316420248330654,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+Standard Confidence (jackknife),0.324951171875,0.009815422883210249,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+NLPD (jackknife),4.55434976599922,0.056075381578424933,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+Standard Error (bootstrap),1.2702691142403082,0.056181937879600054,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+Standard Confidence (oob constant),0.6708984375,0.014222632077308403,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+Standard Error (oob constant),1.0917733362110444,0.03651205819774535,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+Standard Error (jackknife),4.304425878451506,0.20489125458934102,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+NLPD (bootstrap),4.1888829890609385,0.018699986056807217,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+Standard Confidence (bootstrap),0.653564453125,0.014128781780847402,Mechanical Properties PROPERTY: Elongation (%),64,32,64,64,0.0,true
+NLPD (oob constant),4.002303877386369,0.011060663342973292,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+Standard Confidence (jackknife),0.367431640625,0.008976889684838146,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+NLPD (jackknife),4.283448620533216,0.037055486131142394,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+Standard Error (bootstrap),1.1075892072450946,0.024291689901807592,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+Standard Confidence (oob constant),0.67529296875,0.01124886374563475,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+Standard Error (oob constant),1.0754852814637579,0.022156251962094593,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+Standard Error (jackknife),3.8743137191522323,0.22980982117229665,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+NLPD (bootstrap),4.120358593198582,0.010344798999310682,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+Standard Confidence (bootstrap),0.690673828125,0.010787478251230853,Mechanical Properties PROPERTY: Elongation (%),64,64,64,64,0.0,true
+NLPD (oob constant),3.8922416469443544,0.009129047969674715,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+Standard Confidence (jackknife),0.419677734375,0.008357081499721619,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+NLPD (jackknife),4.055419896313732,0.027951603153441706,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+Standard Error (bootstrap),1.0907976423165369,0.033244841170398595,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+Standard Confidence (oob constant),0.702880859375,0.00868325655029808,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+Standard Error (oob constant),1.0310794451804923,0.0190391319933804,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+Standard Error (jackknife),3.2838909528529783,0.2196208907759038,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+NLPD (bootstrap),4.0098544187588265,0.010465822279976908,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+Standard Confidence (bootstrap),0.715576171875,0.00996608040380053,Mechanical Properties PROPERTY: Elongation (%),64,128,64,64,0.0,true
+NLPD (oob constant),3.7651132924750597,0.007760522654281546,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true
+Standard Confidence (jackknife),0.462890625,0.008900256901151458,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true
+NLPD (jackknife),3.9107366009950577,0.018569619519725862,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true
+Standard Error (bootstrap),1.0900988228159147,0.025440342070181303,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true
+Standard Confidence (oob constant),0.673583984375,0.008149450540889515,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true
+Standard Error (oob constant),1.0877178388931517,0.018793469136207094,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true
+Standard Error (jackknife),2.515843191746883,0.09528316400395075,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true
+NLPD (bootstrap),3.8944414268262806,0.01127775511804079,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true
+Standard Confidence (bootstrap),0.6943359375,0.009340572722803352,Mechanical Properties PROPERTY: Elongation (%),64,196,64,64,0.0,true

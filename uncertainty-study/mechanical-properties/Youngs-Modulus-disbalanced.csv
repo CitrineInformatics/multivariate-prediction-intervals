@@ -1,0 +1,13 @@
+output: PROPERTY: YS (MPa)
+trials: 50
+bags: 64
+training points (tension): 60
+training points (compression): 4
+test point (tension): 0
+test points (compression): 32
+NLPD (oob constant): 7.376217531779839 +/- 0.06272285112730976
+Standard Error (oob constant): 2.1208359981759406 +/- 0.06480078445635709
+Standard Error (bootstrap): 1.3473703911652095 +/- 0.0738849950352068
+Standard Confidence (oob constant): 0.375 +/- 0.01523100188324284
+NLPD (bootstrap): 7.388172200759922 +/- 0.023924122391682533
+Standard Confidence (bootstrap): 0.614375 +/- 0.026070969907902843

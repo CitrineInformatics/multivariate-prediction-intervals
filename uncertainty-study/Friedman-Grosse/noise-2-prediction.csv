@@ -1,0 +1,55 @@
+metric,mean value,std error of value,function,trials,train,test,bags,sample noise,observational
+NLPD (oob constant),2.5788928533946933,0.013092181224365115,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+Standard Confidence (jackknife),0.36669921875,0.008591660332207205,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+NLPD (jackknife),2.887531342551806,0.03964895449720614,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+Standard Error (bootstrap),1.0708633863667838,0.02707090523458966,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+Standard Confidence (oob constant),0.6685791015625,0.010935762386579636,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+Standard Error (oob constant),1.0308108351231708,0.023576307629581753,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+Standard Error (jackknife),3.7413817015676205,0.1789927488157766,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+NLPD (bootstrap),2.6902005875914905,0.014260974462358243,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+Standard Confidence (bootstrap),0.6781005859375,0.01100960490914914,Friedman-Grosse 8 columns,64,32,128,64,2.0,true
+NLPD (oob constant),2.4670902115030984,0.008744207932046494,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+Standard Confidence (jackknife),0.39111328125,0.007132239411678315,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+NLPD (jackknife),2.6507363277337195,0.025848560929104362,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+Standard Error (bootstrap),1.0231342918421318,0.02369017576335835,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+Standard Confidence (oob constant),0.6956787109375,0.008975994825050947,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+Standard Error (oob constant),0.9664965425696936,0.01805901050716337,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+Standard Error (jackknife),3.2816587746444505,0.11135894094023956,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+NLPD (bootstrap),2.5621476686591635,0.00950733719979469,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+Standard Confidence (bootstrap),0.69677734375,0.009842947972640056,Friedman-Grosse 8 columns,64,64,128,64,2.0,true
+NLPD (oob constant),2.3314275315666433,0.007387500815168697,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+Standard Confidence (jackknife),0.4229736328125,0.007433003940927584,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+NLPD (jackknife),2.4623464283108936,0.01770151006286814,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+Standard Error (bootstrap),1.0172622686165598,0.01424754709227028,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+Standard Confidence (oob constant),0.689697265625,0.005956402729834229,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+Standard Error (oob constant),0.9893893524126098,0.010996340786825546,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+Standard Error (jackknife),3.0114448850231996,0.1106139826701961,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+NLPD (bootstrap),2.429630649296496,0.007120413429507328,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+Standard Confidence (bootstrap),0.70068359375,0.006956669193465988,Friedman-Grosse 8 columns,64,128,128,64,2.0,true
+NLPD (oob constant),2.2417383657145944,0.00635781159506974,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+Standard Confidence (jackknife),0.49169921875,0.0075483981820631966,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+NLPD (jackknife),2.3494127046922246,0.010388455187902493,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+Standard Error (bootstrap),1.018255545204593,0.014571873708707975,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+Standard Confidence (oob constant),0.6851806640625,0.007196310878041932,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+Standard Error (oob constant),0.9920489064098583,0.012078878442464015,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+Standard Error (jackknife),2.414669738897987,0.06675726610922424,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+NLPD (bootstrap),2.3430872248863412,0.006088048133218484,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+Standard Confidence (bootstrap),0.697509765625,0.0065634080848930125,Friedman-Grosse 8 columns,64,256,128,64,2.0,true
+NLPD (oob constant),2.1702723999885385,0.005696641073157955,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+Standard Confidence (jackknife),0.5631103515625,0.005371938985728669,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+NLPD (jackknife),2.3149297124917387,0.009927132279244865,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+Standard Error (bootstrap),0.9837357819270854,0.010675608845916052,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+Standard Confidence (oob constant),0.6993408203125,0.005585946536557017,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+Standard Error (oob constant),0.968766009816203,0.009163335916701917,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+Standard Error (jackknife),2.162265564974986,0.13496027068125602,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+NLPD (bootstrap),2.2650144834383963,0.005677790152329498,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+Standard Confidence (bootstrap),0.70556640625,0.005436927304856603,Friedman-Grosse 8 columns,64,512,128,64,2.0,true
+NLPD (oob constant),2.1222178988363027,0.00647677765014693,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true
+Standard Confidence (jackknife),0.6602783203125,0.006200384104995698,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true
+NLPD (jackknife),2.3665335342889424,0.007984352129102328,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true
+Standard Error (bootstrap),1.009802662014082,0.010106972086706271,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true
+Standard Confidence (oob constant),0.69287109375,0.005683484158327817,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true
+Standard Error (oob constant),0.9913400588361202,0.009218279156755004,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true
+Standard Error (jackknife),1.8563002698853763,0.16480165970673558,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true
+NLPD (bootstrap),2.206452105661593,0.0054626752334635655,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true
+Standard Confidence (bootstrap),0.6939697265625,0.005433307476990216,Friedman-Grosse 8 columns,64,1024,128,64,2.0,true

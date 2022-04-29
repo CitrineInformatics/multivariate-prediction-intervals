@@ -1,0 +1,46 @@
+metric,mean value,std error of value,function,trials,train,test,bags,sample noise,observational
+NLPD (oob constant),-0.4873412562745631,0.04031899854653517,Thermoelectrics ZT,64,32,64,64,0.0,true
+Standard Confidence (jackknife),0.384521484375,0.010475978277474299,Thermoelectrics ZT,64,32,64,64,0.0,true
+NLPD (jackknife),-0.24977256311778126,0.04912837745009622,Thermoelectrics ZT,64,32,64,64,0.0,true
+Standard Error (bootstrap),1.6862436936914482,0.20253971530321455,Thermoelectrics ZT,64,32,64,64,0.0,true
+Standard Confidence (oob constant),0.671630859375,0.014828371564465244,Thermoelectrics ZT,64,32,64,64,0.0,true
+Standard Error (oob constant),1.7364074732080645,0.1218262184986347,Thermoelectrics ZT,64,32,64,64,0.0,true
+Standard Error (jackknife),5.378283412794395,0.888086929725183,Thermoelectrics ZT,64,32,64,64,0.0,true
+NLPD (bootstrap),-0.36867432259611654,0.031235283902141583,Thermoelectrics ZT,64,32,64,64,0.0,true
+Standard Confidence (bootstrap),0.718994140625,0.01119587587641413,Thermoelectrics ZT,64,32,64,64,0.0,true
+NLPD (oob constant),-0.6823768455300032,0.029971398628122828,Thermoelectrics ZT,64,64,64,64,0.0,true
+Standard Confidence (jackknife),0.403076171875,0.01096829948423886,Thermoelectrics ZT,64,64,64,64,0.0,true
+NLPD (jackknife),-0.3833131854961509,0.044823872190947536,Thermoelectrics ZT,64,64,64,64,0.0,true
+Standard Error (bootstrap),1.6001173717037487,0.09693278297651467,Thermoelectrics ZT,64,64,64,64,0.0,true
+Standard Confidence (oob constant),0.673095703125,0.012407075174692406,Thermoelectrics ZT,64,64,64,64,0.0,true
+Standard Error (oob constant),1.7899784161663308,0.09240792208374254,Thermoelectrics ZT,64,64,64,64,0.0,true
+Standard Error (jackknife),4.667236781531701,0.4802964609885872,Thermoelectrics ZT,64,64,64,64,0.0,true
+NLPD (bootstrap),-0.4911753980015687,0.030285164127091035,Thermoelectrics ZT,64,64,64,64,0.0,true
+Standard Confidence (bootstrap),0.70458984375,0.011889015509895696,Thermoelectrics ZT,64,64,64,64,0.0,true
+NLPD (oob constant),-1.018363769359782,0.019057286342128058,Thermoelectrics ZT,64,128,64,64,0.0,true
+Standard Confidence (jackknife),0.486083984375,0.010427504107356263,Thermoelectrics ZT,64,128,64,64,0.0,true
+NLPD (jackknife),-0.859480213292,0.03592353252487979,Thermoelectrics ZT,64,128,64,64,0.0,true
+Standard Error (bootstrap),1.3531033813311149,0.06105195662290025,Thermoelectrics ZT,64,128,64,64,0.0,true
+Standard Confidence (oob constant),0.6962890625,0.009140613262462415,Thermoelectrics ZT,64,128,64,64,0.0,true
+Standard Error (oob constant),1.7150021168544485,0.05272235294475831,Thermoelectrics ZT,64,128,64,64,0.0,true
+Standard Error (jackknife),2.848230666679059,0.1278799792584887,Thermoelectrics ZT,64,128,64,64,0.0,true
+NLPD (bootstrap),-0.8944504820247252,0.02673955695002537,Thermoelectrics ZT,64,128,64,64,0.0,true
+Standard Confidence (bootstrap),0.7314453125,0.009904258888937582,Thermoelectrics ZT,64,128,64,64,0.0,true
+NLPD (oob constant),-1.350636723596619,0.011874562601933758,Thermoelectrics ZT,64,256,64,64,0.0,true
+Standard Confidence (jackknife),0.561279296875,0.010530952514499179,Thermoelectrics ZT,64,256,64,64,0.0,true
+NLPD (jackknife),-1.1315667455181775,0.026258280690820205,Thermoelectrics ZT,64,256,64,64,0.0,true
+Standard Error (bootstrap),1.210577867680399,0.029018629918321975,Thermoelectrics ZT,64,256,64,64,0.0,true
+Standard Confidence (oob constant),0.68994140625,0.007775936395980572,Thermoelectrics ZT,64,256,64,64,0.0,true
+Standard Error (oob constant),1.9201156566755933,0.061491501665178576,Thermoelectrics ZT,64,256,64,64,0.0,true
+Standard Error (jackknife),2.386865206281454,0.09803332560487668,Thermoelectrics ZT,64,256,64,64,0.0,true
+NLPD (bootstrap),-1.1706271970473687,0.02473855595422814,Thermoelectrics ZT,64,256,64,64,0.0,true
+Standard Confidence (bootstrap),0.7197265625,0.009321409277642823,Thermoelectrics ZT,64,256,64,64,0.0,true
+NLPD (oob constant),-1.6506383643432039,0.007215832298262858,Thermoelectrics ZT,64,512,64,64,0.0,true
+Standard Confidence (jackknife),0.627685546875,0.008468229267256362,Thermoelectrics ZT,64,512,64,64,0.0,true
+NLPD (jackknife),-1.443915390518638,0.024427964354877534,Thermoelectrics ZT,64,512,64,64,0.0,true
+Standard Error (bootstrap),1.2048076612737104,0.03136615249847608,Thermoelectrics ZT,64,512,64,64,0.0,true
+Standard Confidence (oob constant),0.68115234375,0.007240066283512713,Thermoelectrics ZT,64,512,64,64,0.0,true
+Standard Error (oob constant),2.0699723623074373,0.057581532366804855,Thermoelectrics ZT,64,512,64,64,0.0,true
+Standard Error (jackknife),2.024332650599709,0.10004694723189003,Thermoelectrics ZT,64,512,64,64,0.0,true
+NLPD (bootstrap),-1.4970854855773608,0.02438091614513617,Thermoelectrics ZT,64,512,64,64,0.0,true
+Standard Confidence (bootstrap),0.717529296875,0.00807736361473763,Thermoelectrics ZT,64,512,64,64,0.0,true

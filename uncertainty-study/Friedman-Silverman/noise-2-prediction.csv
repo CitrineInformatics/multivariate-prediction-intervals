@@ -1,0 +1,55 @@
+metric,mean value,std error of value,function,trials,train,test,bags,sample noise,observational
+NLPD (oob constant),2.1436290975897196,0.015807327027260166,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+Standard Confidence (jackknife),0.36767578125,0.008119052397372711,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+NLPD (jackknife),2.3979788717519983,0.04190480178754726,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+Standard Error (bootstrap),1.0495694860030682,0.02701910124638855,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+Standard Confidence (oob constant),0.687744140625,0.011078133067893466,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+Standard Error (oob constant),1.0098406527066077,0.02369161259358322,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+Standard Error (jackknife),3.6382735686746064,0.15224512382904037,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+NLPD (bootstrap),2.222192259619329,0.0146914153107886,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+Standard Confidence (bootstrap),0.68603515625,0.011493910120335675,Friedman-Silverman 12 columns,64,32,128,64,2.0,true
+NLPD (oob constant),2.0725871393380615,0.011244222953179811,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+Standard Confidence (jackknife),0.377197265625,0.007214487142377845,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+NLPD (jackknife),2.2693802221169324,0.028890574802717096,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+Standard Error (bootstrap),1.0375742338643044,0.024742300254367976,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+Standard Confidence (oob constant),0.7003173828125,0.010212211762140346,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+Standard Error (oob constant),0.984702763710808,0.021248580265530833,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+Standard Error (jackknife),3.838238574888216,0.15358861348386968,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+NLPD (bootstrap),2.1589443207719827,0.012401885035102861,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+Standard Confidence (bootstrap),0.698486328125,0.01001976258306423,Friedman-Silverman 12 columns,64,64,128,64,2.0,true
+NLPD (oob constant),1.9978585859514613,0.010235532077177898,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+Standard Confidence (jackknife),0.3890380859375,0.006836329176444789,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+NLPD (jackknife),2.178535605811031,0.027547805332144883,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+Standard Error (bootstrap),1.0036595028586424,0.014185221878880234,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+Standard Confidence (oob constant),0.69775390625,0.007119692766627733,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+Standard Error (oob constant),0.980103392093065,0.013186550603106965,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+Standard Error (jackknife),3.499036719261685,0.19233995383647395,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+NLPD (bootstrap),2.0952047853620366,0.008210588093942296,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+Standard Confidence (bootstrap),0.6964111328125,0.0075028413863958456,Friedman-Silverman 12 columns,64,128,128,64,2.0,true
+NLPD (oob constant),1.9564298397455413,0.006780646813475115,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+Standard Confidence (jackknife),0.4384765625,0.0070431502620857695,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+NLPD (jackknife),2.0771737713128466,0.014559058761299266,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+Standard Error (bootstrap),1.00944536666089,0.011917373354330288,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+Standard Confidence (oob constant),0.690673828125,0.005094059373084601,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+Standard Error (oob constant),0.9868131966002758,0.010257898403379383,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+Standard Error (jackknife),2.883540679364883,0.11156359658449654,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+NLPD (bootstrap),2.045192660388042,0.006150385713292436,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+Standard Confidence (bootstrap),0.6944580078125,0.005882515512242111,Friedman-Silverman 12 columns,64,256,128,64,2.0,true
+NLPD (oob constant),1.9387402468222177,0.005857320979756011,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+Standard Confidence (jackknife),0.5164794921875,0.0060695274058897054,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+NLPD (jackknife),2.0395620506836325,0.011924929057751015,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+Standard Error (bootstrap),0.975452555582253,0.010453475728541134,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+Standard Confidence (oob constant),0.696533203125,0.006587769019516902,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+Standard Error (oob constant),0.9683231315582477,0.009318861484163936,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+Standard Error (jackknife),2.5588447154588345,0.15540275721711214,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+NLPD (bootstrap),2.019165821523034,0.006029927120613589,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+Standard Confidence (bootstrap),0.7056884765625,0.0060595454446803355,Friedman-Silverman 12 columns,64,512,128,64,2.0,true
+NLPD (oob constant),1.9121058046951738,0.006471026962743198,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
+Standard Confidence (jackknife),0.62060546875,0.005483321803331089,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
+NLPD (jackknife),2.088682081419338,0.008230489225311366,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
+Standard Error (bootstrap),0.9952847616923397,0.009133649019506414,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
+Standard Confidence (oob constant),0.69482421875,0.005348504856676213,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
+Standard Error (oob constant),0.9783402651984204,0.00852630323681605,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
+Standard Error (jackknife),1.728813475125346,0.04514658827861826,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
+NLPD (bootstrap),1.983761700880606,0.006032732421654833,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
+Standard Confidence (bootstrap),0.7020263671875,0.004802399338573798,Friedman-Silverman 12 columns,64,1024,128,64,2.0,true
