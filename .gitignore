@@ -43,3 +43,6 @@ bin/
 
 #general
 *.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
