@@ -1,0 +1,38 @@
+font.size: 10
+
+lines.linewidth: 1.5
+lines.solid_capstyle: butt
+
+legend.fancybox: true
+
+axes.linewidth: 1.5
+axes.titlesize: large
+axes.labelsize: medium
+
+# axes.prop_cycle: cycler('color', ['0072B2', '009E73', 'D55E00', 'CC79A7', 'F0E442', '56B4E9']) # Seaborn colorblind
+axes.prop_cycle: cycler('color', ['006BA4', 'C85200', 'FF800E', '898989', 'ABABAB']) # Tableau colorblind
+# axes.prop_cycle: cycler('color', ['008fd5', 'fc4f30', 'e5ae38', '6d904f', '8b8b8b', '810f7c']) # fivethirtyeight colors
+# axes.prop_cycle: cycler('color', ['1976D2', '388E3C', 'C62828', '7B1FA2', '1976D2', 'FF8F00', '795548']) # Ryan's colors
+
+
+xtick.major.size:    3.5
+xtick.minor.size:    2
+xtick.major.width:   1.2
+xtick.minor.width:   0.6
+xtick.labelsize:     medium
+
+ytick.major.size:    3.5
+ytick.minor.size:    2
+ytick.major.width:   1.2
+ytick.minor.width:   0.6
+ytick.labelsize:     medium
+
+mathtext.fontset: cm
+mathtext.rm: serif
+
+patch.facecolor: 0072B2
+patch.edgecolor: f0f0f0
+patch.linewidth: 0.5
+
+figure.dpi: 150
+savefig.bbox: tight
