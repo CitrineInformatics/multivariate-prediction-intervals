@@ -1,0 +1,37 @@
+metric,mean value,std error of value,function,trials,train,test,bags,sample noise,observational
+NLPD (oob constant),7.022298933838829,0.017664162697936456,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+Standard Confidence (jackknife),0.37255859375,0.010091125324187407,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+NLPD (jackknife),7.295814624400432,0.04785540304043642,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+Standard Error (bootstrap),1.1571209713002595,0.03951024777231916,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+Standard Confidence (oob constant),0.689453125,0.01250371877666199,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+Standard Error (oob constant),1.1284817943893737,0.03221414326788218,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+Standard Error (jackknife),3.7977567124000053,0.257029798530035,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+NLPD (bootstrap),7.154118811491721,0.016711504564363384,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+Standard Confidence (bootstrap),0.69482421875,0.013165355358536187,Mechanical Properties PROPERTY: YS (MPa),64,32,64,64,0.0,true
+NLPD (oob constant),6.862313383498624,0.013330916590372097,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+Standard Confidence (jackknife),0.393310546875,0.00899388804790383,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+NLPD (jackknife),7.119473687744685,0.034030386586004865,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+Standard Error (bootstrap),1.260143730211056,0.05355160817615187,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+Standard Confidence (oob constant),0.683349609375,0.010020134370434905,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+Standard Error (oob constant),1.2381237868780113,0.031006972973352167,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+Standard Error (jackknife),3.566021763316305,0.1429618801090536,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+NLPD (bootstrap),7.010646424084693,0.014833781538783827,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+Standard Confidence (bootstrap),0.6943359375,0.011133856473460517,Mechanical Properties PROPERTY: YS (MPa),64,64,64,64,0.0,true
+NLPD (oob constant),6.740829198421079,0.008869064327164057,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+Standard Confidence (jackknife),0.458984375,0.007473255793463851,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+NLPD (jackknife),6.901896231953607,0.026208650769380643,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+Standard Error (bootstrap),1.2478337613005748,0.04989583492484157,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+Standard Confidence (oob constant),0.69873046875,0.009150999979189453,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+Standard Error (oob constant),1.1927251996033583,0.029488161407077156,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+Standard Error (jackknife),4.013782023207619,0.991890820717772,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+NLPD (bootstrap),6.887090380690642,0.012995174375394436,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+Standard Confidence (bootstrap),0.699462890625,0.009867282093769589,Mechanical Properties PROPERTY: YS (MPa),64,128,64,64,0.0,true
+NLPD (oob constant),6.60503825871691,0.008428640429216826,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
+Standard Confidence (jackknife),0.498779296875,0.00798085723469147,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
+NLPD (jackknife),6.801305077113674,0.023366893851843016,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
+Standard Error (bootstrap),1.253343771510189,0.03006858738669587,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
+Standard Confidence (oob constant),0.68603515625,0.008398712508556078,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
+Standard Error (oob constant),1.297444351883535,0.028334489456854132,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
+Standard Error (jackknife),3.1107589764955326,0.2958610975712145,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
+NLPD (bootstrap),6.792643094693016,0.011411522381929178,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
+Standard Confidence (bootstrap),0.70263671875,0.00870023985729403,Mechanical Properties PROPERTY: YS (MPa),64,196,64,64,0.0,true
