@@ -1,0 +1,25 @@
+correlation method,metric,mean value,std error of value,function,trials,train,test,bags,observational,sample noise,linear rho,quadratic fuzz,output index 0,output index 1,output index 2
+Trivial,negative log probability density,7.358334011018061,0.06075537438104115,Friedman-Silverman 12 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,7.248603013841189,0.06340101375597763,Friedman-Silverman 12 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,7.070429248873029,0.058469554131996615,Friedman-Silverman 12 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,7.500366793318925,0.058597510782508404,Friedman-Silverman 12 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,6.932144639903802,0.06317325148348249,Friedman-Silverman 12 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,6.9696671042499245,0.05516547849971268,Friedman-Silverman 12 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,6.709252703182369,0.05404240209141361,Friedman-Silverman 12 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,7.0594958686508305,0.07398036994797984,Friedman-Silverman 12 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,6.335889781631012,0.05231740605889558,Friedman-Silverman 12 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,6.4346332378266755,0.0589359670616948,Friedman-Silverman 12 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,6.167539351640432,0.05647277278246791,Friedman-Silverman 12 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,6.530428654453596,0.05518101711657916,Friedman-Silverman 12 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,5.918421366389007,0.02381373349752417,Friedman-Silverman 12 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,6.063973150845476,0.03197957067793061,Friedman-Silverman 12 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,5.780421369030188,0.02408412242131711,Friedman-Silverman 12 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,6.055540142340097,0.03513284603850791,Friedman-Silverman 12 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,5.680264780203485,0.030838430736424692,Friedman-Silverman 12 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,5.893412400155151,0.04972811738719816,Friedman-Silverman 12 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,5.6098323058297765,0.031718016015115154,Friedman-Silverman 12 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,5.881450491486259,0.03412311244846529,Friedman-Silverman 12 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,5.483491059513954,0.031833559264863635,Friedman-Silverman 12 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,5.634592413140448,0.05326165254141549,Friedman-Silverman 12 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,5.403504242084719,0.04250712523054917,Friedman-Silverman 12 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,5.638503193707624,0.05592368283283737,Friedman-Silverman 12 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2

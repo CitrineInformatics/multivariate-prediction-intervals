@@ -1,0 +1,25 @@
+correlation method,metric,mean value,std error of value,function,trials,train,test,bags,observational,sample noise,linear rho,quadratic fuzz,output index 0,output index 1,output index 2
+Trivial,negative log probability density,10.034451934267242,0.06734332670115867,Friedman-Grosse 8 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,9.721331414600055,0.05594971876194955,Friedman-Grosse 8 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,9.527834351783573,0.052180960227372994,Friedman-Grosse 8 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,10.21455651016148,0.0827640179750911,Friedman-Grosse 8 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,9.768933356869196,0.06276063775639765,Friedman-Grosse 8 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,9.532384206266402,0.05696603266111491,Friedman-Grosse 8 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,9.215599426051396,0.06371945652805626,Friedman-Grosse 8 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,9.876054146493656,0.05456216813820334,Friedman-Grosse 8 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,9.371393015391394,0.054996281948562764,Friedman-Grosse 8 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,9.22332817897683,0.04663214331003897,Friedman-Grosse 8 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,8.900917033341948,0.047722055513133715,Friedman-Grosse 8 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,9.5041640514105,0.059038876504936916,Friedman-Grosse 8 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,8.979406615559595,0.030580152410429117,Friedman-Grosse 8 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,8.818881886454196,0.043348293154769,Friedman-Grosse 8 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,8.510560088821409,0.0400096107246339,Friedman-Grosse 8 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,9.085644079185935,0.034748832442382686,Friedman-Grosse 8 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,8.597317751292827,0.036655231572743724,Friedman-Grosse 8 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,8.571973245965788,0.05469397836166517,Friedman-Grosse 8 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,8.175920886626272,0.034759158856522365,Friedman-Grosse 8 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,8.71116613467195,0.04892106626707963,Friedman-Grosse 8 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,negative log probability density,8.186952617644199,0.03597078667676793,Friedman-Grosse 8 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,negative log probability density,8.334529134642215,0.047278729117252324,Friedman-Grosse 8 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,negative log probability density,7.843315092263305,0.03514093381608142,Friedman-Grosse 8 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,negative log probability density,8.238157851144365,0.040271140660309304,Friedman-Grosse 8 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2

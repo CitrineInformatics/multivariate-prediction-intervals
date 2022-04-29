@@ -1,0 +1,25 @@
+correlation method,metric,mean value,std error of value,function,trials,train,test,bags,observational,sample noise,linear rho,quadratic fuzz,output index 0,output index 1,output index 2
+Trivial,68.30000000000001% standard confidence,0.72021484375,0.02674621553478257,Friedman-Grosse 8 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,68.30000000000001% standard confidence,0.62841796875,0.024296285738653035,Friedman-Grosse 8 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,68.30000000000001% standard confidence,0.6220703125,0.025398839942092882,Friedman-Grosse 8 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,68.30000000000001% standard confidence,0.58935546875,0.022619269873069715,Friedman-Grosse 8 columns,16,32,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,68.30000000000001% standard confidence,0.71728515625,0.02309130249681578,Friedman-Grosse 8 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,68.30000000000001% standard confidence,0.583984375,0.02404506299266627,Friedman-Grosse 8 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,68.30000000000001% standard confidence,0.60205078125,0.02045506551351152,Friedman-Grosse 8 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,68.30000000000001% standard confidence,0.5810546875,0.02251262522508529,Friedman-Grosse 8 columns,16,64,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,68.30000000000001% standard confidence,0.7451171875,0.012879430360458964,Friedman-Grosse 8 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,68.30000000000001% standard confidence,0.60205078125,0.01567783957988208,Friedman-Grosse 8 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,68.30000000000001% standard confidence,0.62646484375,0.014053999132789595,Friedman-Grosse 8 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,68.30000000000001% standard confidence,0.6064453125,0.013704533399107606,Friedman-Grosse 8 columns,16,128,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,68.30000000000001% standard confidence,0.75048828125,0.010276406442954578,Friedman-Grosse 8 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,68.30000000000001% standard confidence,0.59423828125,0.010229900051534818,Friedman-Grosse 8 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,68.30000000000001% standard confidence,0.646484375,0.013836550112602299,Friedman-Grosse 8 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,68.30000000000001% standard confidence,0.6240234375,0.012017572728748992,Friedman-Grosse 8 columns,16,256,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,68.30000000000001% standard confidence,0.7470703125,0.011957907125252399,Friedman-Grosse 8 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,68.30000000000001% standard confidence,0.55322265625,0.012904281318277573,Friedman-Grosse 8 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,68.30000000000001% standard confidence,0.62548828125,0.011015450767059034,Friedman-Grosse 8 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,68.30000000000001% standard confidence,0.5888671875,0.010582869532076778,Friedman-Grosse 8 columns,16,512,128,64,true,1.0,0.9,0.5,0,1,2
+Trivial,68.30000000000001% standard confidence,0.74267578125,0.009654364985203175,Friedman-Grosse 8 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Training Data,68.30000000000001% standard confidence,0.50732421875,0.009404168846074907,Friedman-Grosse 8 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Bootstrap,68.30000000000001% standard confidence,0.6220703125,0.009363676225959525,Friedman-Grosse 8 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
+Jackknife,68.30000000000001% standard confidence,0.56982421875,0.012400204932149871,Friedman-Grosse 8 columns,16,1024,128,64,true,1.0,0.9,0.5,0,1,2
