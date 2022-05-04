@@ -46,8 +46,7 @@ There are several ways to open a Jupyter notebook; one is to run the command `ju
 
 Our main result is the increased efficiency of sequential learning.
 The table below summarizes the results of Table 1 and Figure 4 in the manuscript.
-Given two test problems and several methods of generating a multivariate prediction interval to select a trial candidate,
-we see that using the recalibrated bootstrap leads to the fewest number of iterations required to find a candidate that satisfies all objectives.
+Given two test problems and several methods of generating a multivariate prediction interval to select a trial candidate, we see that using the recalibrated bootstrap leads to the fewest number of iterations required to find a candidate that satisfies all objectives.
 
 | Correlation Method | Median Iterations (Synthetic Data)  | Median Iterations (Thermoelectrics Data) |
 | ------------------ |------------------------- | ----------------------------- |
