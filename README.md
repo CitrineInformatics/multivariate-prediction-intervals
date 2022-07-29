@@ -1,6 +1,6 @@
 # Multivariate Prediction Intervals for Random Forests
 
-This repository contains the data and code used to generate the results in Multivariate Prediction Intervals for Random Forests (TODO: add link to ArXiv once available).
+This repository contains the data and code used to generate the results in [Multivariate Prediction Intervals for Random Forests](https://arxiv.org/abs/2205.02260).
 We propose a ''recalibrated bootstrap'' method to generate multivariate prediction intervals for predictions made by bagged models such as random forest.
 We show that the resulting prediction intervals are well-calibrated on a variety of synthetic and real-world test problems.
 We then apply the recalibrated bootstrap and other competing techniques to simulated sequential learning problems in which there are multiple competing objectives.

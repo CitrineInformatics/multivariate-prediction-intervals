@@ -11,14 +11,14 @@ object SequentialLearningFriedmanGrosse {
     val driver = SequentialLearningDriver(csvPath, outputHeaders)
 
     val seed = 713259630L
-    val filepathBase = "./sequential-learning-study/friedman-grosse-sl"
+    val filepathBase = "./sequential-learning-study/friedman-grosse/"
     val numTrials = 64
     val numInitialTraining = 16
     // The goal is to achieve y > 22 and z > 22. There are 2 points that meet these objectives.
     val objectives: Set[Objective] = Set(GreaterThan(outputHeaders(0), 0, 22.0), GreaterThan(outputHeaders(1), 1, 22.0))
 
     driver.runTrials(
-      filepath = s"${filepathBase}-trivial.csv",
+      filepath = s"${filepathBase}trivial.csv",
       numTrials = numTrials,
       objectives = objectives,
       numInitialTraining = numInitialTraining,
@@ -27,7 +27,7 @@ object SequentialLearningFriedmanGrosse {
     )
 
     driver.runTrials(
-      filepath = s"${filepathBase}-training-data.csv",
+      filepath = s"${filepathBase}training-data.csv",
       numTrials = numTrials,
       objectives = objectives,
       numInitialTraining = numInitialTraining,
@@ -36,7 +36,7 @@ object SequentialLearningFriedmanGrosse {
     )
 
     driver.runTrials(
-      filepath = s"${filepathBase}-bootstrap.csv",
+      filepath = s"${filepathBase}bootstrap.csv",
       numTrials = numTrials,
       objectives = objectives,
       numInitialTraining = numInitialTraining,
@@ -45,12 +45,52 @@ object SequentialLearningFriedmanGrosse {
     )
 
     driver.runTrials(
-      filepath = s"${filepathBase}-jackknife.csv",
+      filepath = s"${filepathBase}jackknife.csv",
       numTrials = numTrials,
       objectives = objectives,
       numInitialTraining = numInitialTraining,
       method = CorrelationMethods.Jackknife,
       seed = seed
+    )
+
+    driver.runTrials(
+      filepath = s"${filepathBase}p95-trivial.csv",
+      numTrials = numTrials,
+      objectives = objectives,
+      numInitialTraining = numInitialTraining,
+      method = CorrelationMethods.Trivial,
+      seed = seed,
+      uncertaintyCalibrationLevel = 0.95
+    )
+
+    driver.runTrials(
+      filepath = s"${filepathBase}p95-training-data.csv",
+      numTrials = numTrials,
+      objectives = objectives,
+      numInitialTraining = numInitialTraining,
+      method = CorrelationMethods.FromTraining,
+      seed = seed,
+      uncertaintyCalibrationLevel = 0.95
+    )
+
+    driver.runTrials(
+      filepath = s"${filepathBase}p95-bootstrap.csv",
+      numTrials = numTrials,
+      objectives = objectives,
+      numInitialTraining = numInitialTraining,
+      method = CorrelationMethods.Bootstrap,
+      seed = seed,
+      uncertaintyCalibrationLevel = 0.95
+    )
+
+    driver.runTrials(
+      filepath = s"${filepathBase}p95-jackknife.csv",
+      numTrials = numTrials,
+      objectives = objectives,
+      numInitialTraining = numInitialTraining,
+      method = CorrelationMethods.Jackknife,
+      seed = seed,
+      uncertaintyCalibrationLevel = 0.95
     )
   }
 
