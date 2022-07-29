@@ -156,7 +156,7 @@ case class CorrelationAccuracyRealData(
       learner,
       numBags = numBags,
       randBasis = new RandBasis(new ThreadLocalRandomGenerator(new MersenneTwister(bagSeed))),
-      uncertaintyCalibration = true
+      uncertaintyCalibrationLevel = Some(0.683)
     )
 
     val RF = baggedLearner.train(

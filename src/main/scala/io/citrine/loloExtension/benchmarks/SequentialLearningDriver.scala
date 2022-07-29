@@ -99,7 +99,7 @@ case class SequentialLearningDriver(
         new MultiTaskStandardizer(MultiTaskTreeLearner(rng = new Random(treeRng.nextLong()))),
         numBags = 64,
         randBasis = new RandBasis(new ThreadLocalRandomGenerator(new MersenneTwister(baggerRng.nextLong()))),
-        uncertaintyCalibration = true
+        uncertaintyCalibrationLevel = Some(0.683)
       )
       val (trainData, testData) = partitionVectorByIndices(data, trainIndices)
       val RF = baggedLearner.train(
