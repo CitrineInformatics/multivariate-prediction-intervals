@@ -44,6 +44,7 @@ case class SequentialLearningDriver(
                  numInitialTraining: Int,
                  method: CorrelationMethods.CorrelationMethod,
                  seed: Long,
+                 uncertaintyCalibrationLevel: Double = 0.683,
                  findAll: Boolean = false
                ): Unit = {
     val allObjectives = objectives.toVector
@@ -65,6 +66,7 @@ case class SequentialLearningDriver(
         numInitialTraining = numInitialTraining,
         method = method,
         targetsToFind = targetsToFind,
+        uncertaintyCalibrationLevel = uncertaintyCalibrationLevel,
         rng = thisRng
       )
       val row = Seq(method.toString, numInitialTraining) ++ allObjectives.map(_.toString) ++ Seq(targetsToFind, numRounds)
@@ -79,6 +81,7 @@ case class SequentialLearningDriver(
                         numInitialTraining: Int,
                         method: CorrelationMethods.CorrelationMethod,
                         targetsToFind: Int = 1,
+                        uncertaintyCalibrationLevel: Double = 0.683,
                         rng: Random = new Random()
                       ): Int = {
     // Shuffle data so that the hidden indices are at the end, then set the first points as the initial training set.
@@ -99,7 +102,7 @@ case class SequentialLearningDriver(
         new MultiTaskStandardizer(MultiTaskTreeLearner(rng = new Random(treeRng.nextLong()))),
         numBags = 64,
         randBasis = new RandBasis(new ThreadLocalRandomGenerator(new MersenneTwister(baggerRng.nextLong()))),
-        uncertaintyCalibrationLevel = Some(0.683)
+        uncertaintyCalibrationLevel = Some(uncertaintyCalibrationLevel)
       )
       val (trainData, testData) = partitionVectorByIndices(data, trainIndices)
       val RF = baggedLearner.train(
